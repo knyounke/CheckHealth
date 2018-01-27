@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CheckHealth</string>
+    <string name="homescreenimage">HomeScreenImage</string>
 </resources>
