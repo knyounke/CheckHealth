@@ -12,4 +12,3 @@ public class HomeScreen extends AppCompatActivity {
         //test commit and push
     }
 }
-//this is java
