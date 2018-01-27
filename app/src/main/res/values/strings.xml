@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">CheckHealth</string>
     <string name="homescreenimage">HomeScreenImage</string>
+    <string name="fitapp">FitApp</string>
+    <string name="fitcheck">FitCheck</string>
 </resources>
