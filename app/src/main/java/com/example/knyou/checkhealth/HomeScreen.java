@@ -14,11 +14,11 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.activity_home_screen);
     }
     
-    public class Enter extends AppCompatActivity {
+    public class MenuActivity extends AppCompatActivity {
        protected void onCreate(Bundle savedInstanceState) {
            super.onCreate(savedInstanceState);
 
-           setContentView(R.layout.activity_enter);
+           setContentView(R.layout.activity_menu);
 
            final ImageButton button = findViewById(R.id.imageButton);
            button.setOnClickListener(new View.OnClickListener() {
