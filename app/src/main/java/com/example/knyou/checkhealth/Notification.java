@@ -31,6 +31,7 @@ public class Notification{
     }
 
 }
+//
 //to generate a notification, write:
 /* Notification.openActivityNotification(getApplicationContext()); */
 /* Things that need to be done: set a default small icon */
