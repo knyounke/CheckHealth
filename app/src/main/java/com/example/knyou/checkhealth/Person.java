@@ -7,7 +7,8 @@ import java.util.ArrayList;
  * Created by jose on 1/27/18.
  */
 
-public class Person { /*
+public class Person {
+    /*
     public Person(String sex, int age){
         if(age >= 0 && (sex.equalsIgnoreCase("Male") || sex.equalsIgnoreCase("Female"))){
             _age = age;
