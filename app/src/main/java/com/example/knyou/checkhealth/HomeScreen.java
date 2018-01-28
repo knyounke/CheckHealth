@@ -13,7 +13,7 @@ public class HomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
-        //connect to button
+        //connect to menu button
         setContentView(R.layout.activity_menu);
 
         final ImageButton button = findViewById(R.id.imageButton);

@@ -13,30 +13,7 @@ public class MenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-        
-        //calendar
-        Calendar c= Calendar.getInstance();
-        int year= c.get(c.YEAR);
-        int month = c.get(c.MONTH);
-        int dayOfMonth = c.get(c.DAY_OF_MONTH);
-        
-        //get widgets reference of calendar
 
-        DatePicker BDay = (DatePicker)findViewById(R.id.BDay);
-        
-        //init(int year, int monthofyear, int dayofmonth, datepicker.ondatelistener
-        
-        /*BDay.init{
-            year,
-            month,
-            dayOfMonth,
-            new DatePicker.OnDateChangedListener() {
-           @Override
-           public void onDateChanged() {
 
-           }
-            };
-
-        }*/
     }
 }
