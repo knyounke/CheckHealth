@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">CheckHealth</string>
+    <string name="homescreenimage">HomeScreenImage</string>
+    <string name="fitapp">FitApp</string>
+    <string name="fitcheck">FitCheck</string>
+    <string name="imagebutton">ImageButton</string>
+    <string name="age">Age</string>
+    <string name="name">Name</string>
+
+    <string-array name="Gender">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+
 </resources>
