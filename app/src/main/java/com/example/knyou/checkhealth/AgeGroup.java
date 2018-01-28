@@ -1,6 +1,7 @@
 package com.example.knyou.checkhealth;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by jose on 1/27/18.
@@ -202,9 +203,4 @@ public class AgeGroup {
     }
 
     private ArrayList checkups= new ArrayList();
-
-
-
-
-
 }
