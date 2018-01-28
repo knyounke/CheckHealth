@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class Person {
     public Person(String sex, int age){
-        if(age >= 0 && (sex =="Male" || sex =="Female")){
+        if(age >= 0 && (sex.equalsIgnoreCase("Male") || sex.equalsIgnoreCase("Female"))){
             _age = age;
             _sex = sex;
             _set_group();
@@ -17,23 +17,23 @@ public class Person {
     }
 
     public void _set_group(){
-        if(_age <= 2){
-            _age_group = new AgeGroup(0);
+        if(_age < 9){
+            _age_group = new AgeGroup(0,_sex);
         }
         else if(_age >=20 && _age<30){
-            _age_group = new AgeGroup(1);
+            _age_group = new AgeGroup(1,_sex);
         }
         else if(_age >=40 && _age<50){
-            _age_group = new AgeGroup(2);
+            _age_group = new AgeGroup(2,_sex);
         }
         else if(_age >=20 && _age<60){
-            _age_group = new AgeGroup(3);
+            _age_group = new AgeGroup(3,_sex);
         }
         else if(_age >=60 && _age<70){
-            _age_group = new AgeGroup(4);
+            _age_group = new AgeGroup(4,_sex);
         }
         else if(_age >=80 && _age<90){
-            _age_group = new AgeGroup(5);
+            _age_group = new AgeGroup(5,_sex);
         }
     }
 
