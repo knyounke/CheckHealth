@@ -5,11 +5,11 @@ package com.example.knyou.checkhealth;
  */
 
 public class Check_Ups {
-    public Check_Ups(int total, String description){
+    public Check_Ups(int total, String name){
         if(total != 0){
             _total_per_year = total;
             _completed_per_year = 0;
-            _description = description;
+            _name = name;
         }
     }
 
@@ -17,13 +17,14 @@ public class Check_Ups {
         if (_completed_per_year <= _total_per_year){
             _completed_per_year++;
         }
+
     }
 
-    public String viewDescription(){
-        return _description;
+    public String getName(){
+        return _name;
     }
 
     private int _total_per_year;
     private int _completed_per_year;
-    private String _description;
+    private String _name;
 }
