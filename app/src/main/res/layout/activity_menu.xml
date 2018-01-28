@@ -63,6 +63,14 @@
             android:datePickerMode="spinner"
             tools:targetApi="lollipop" />
 
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/BDay"
+            android:layout_toRightOf="@+id/BDay"
+            android:background="@android:drawable/ic_media_play" />
 
 
     </RelativeLayout>
