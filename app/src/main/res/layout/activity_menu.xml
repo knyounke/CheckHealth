@@ -16,43 +16,54 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="68dp"
+            android:layout_marginTop="34dp"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="@string/name" />
 
         <Spinner
             android:id="@+id/Gender"
-            android:layout_width="250dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/Name"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="51dp"
+            android:layout_marginTop="27dp"
             android:minWidth="200dp" />
 
         <EditText
             android:id="@+id/Age"
-            android:layout_width="96dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/Gender"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="19dp"
             android:ems="10"
             android:inputType="number"
             android:text="@string/age" />
 
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/BDay"
+            android:layout_alignLeft="@+id/Age"
+            android:layout_alignStart="@+id/Age"
+            android:layout_marginBottom="21dp"
+            android:contentDescription="@string/bday_txt"
+            android:text="@string/birthday" />
+
         <DatePicker
             android:id="@+id/BDay"
-            android:layout_width="250dp"
-            android:layout_height="100dp"
-            android:layout_alignLeft="@+id/Gender"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
             android:layout_alignParentBottom="true"
-            android:layout_alignStart="@+id/Gender"
-            android:layout_below="@id/Age"
-            android:layout_marginBottom="61dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="29dp"
             android:calendarViewShown="false"
             android:datePickerMode="spinner"
             tools:targetApi="lollipop" />
+
+
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
