@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     tools:context="com.example.knyou.checkhealth.HomeScreen">
 
     <ImageButton
@@ -14,12 +15,12 @@
         android:layout_marginEnd="119dp"
         android:layout_marginStart="119dp"
         android:layout_marginTop="187dp"
+        android:background="@drawable/cross"
         android:contentDescription="@string/imagebutton"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_launcher_round" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
@@ -31,6 +32,8 @@
         android:layout_marginTop="33dp"
         android:contentDescription="@string/fitapp"
         android:text="@string/fitcheck"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
