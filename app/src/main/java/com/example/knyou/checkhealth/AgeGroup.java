@@ -75,29 +75,74 @@ public class AgeGroup {
             checkups.add(1,"Tetanus-diphtheria booster (Once every 10 Years)");
         }
         else if(age_group == 5){
-            checkups.add("Annual Physical Exam (Once a year)");
-            checkups.add("Blood Pressure (Once a year)");
-            checkups.add("Testicular Cancer  (Monthly Check-up)");
-            checkups.add("Dental Exam (Once every 6 months)");
-            checkups.add("Prostate Cancer (Once every 4 years)");
-            checkups.add("Screening for Lipid Disorders (Once every 2-3 Years)");
-            checkups.add("Electrocardiogram (Once a year)");
-            checkups.add("Coronary Heart Disease Screening (Once a year)");
-            checkups.add("Colonoscopy (Every 10 Years)");
-            checkups.add("CT colonography (Virtual Colonoscopy) (Every 5 years)");
-            checkups.add("Flexible Sigmoidoscopy (Every 5 years)");
-            checkups.add("Double-contrast Barium Enema (Every 5 years)");
-            checkups.add("Fecal immunochemical test (FIT) (Once a year)");
-            checkups.add("Guaiac-based fecal occult blood test (Once a year)");
-            checkups.add("Stool DNA Test (Once every 3 years)");
-            checkups.add("Vision Examination (Once a year)");
-            checkups.add("Hearing Examination (Once a year)");
-            checkups.add("Osteoporosis Screening  (Once every 8 years)");
-            checkups.add("Sexually Transmitted Diseases (Once a year)");
-            checkups.add("Screening for Depression (Once a year)");
-            checkups.add("Alzheimer's disease and Dementia (Once every 5 years)");
-            checkups.add("Flu Vaccine (Once a year)");
-            checkups.add("Tetanus-diphtheria booster (Once every 10 Years)");
+            checkups.add(1,"Annual Physical Exam (Once a year)");
+            checkups.add(1,"Blood Pressure (Once a year)");
+            checkups.add(1,"Testicular Cancer (Monthly Check-up)");
+            checkups.add(1,"Dental Exam (Once every 6 months)");
+            checkups.add(1,"Prostate Cancer (Once every 4 years)");
+            checkups.add(1,"Screening for Lipid Disorders (Once every 2-3 Years)");
+            checkups.add(1,"Electrocardiogram (Once a year)");
+            checkups.add(1,"Coronary Heart Disease Screening (Once a year)");
+            checkups.add(1,"Colonoscopy (Every 10 Years)");
+            checkups.add(1,"CT colonography (Virtual Colonoscopy) (Every 5 years)");
+            checkups.add(1,"Flexible Sigmoidoscopy (Every 5 years)");
+            checkups.add(1,"Double-contrast Barium Enema (Every 5 years)");
+            checkups.add(1,"Fecal immunochemical test (FIT) (Once a year)");
+            checkups.add(1,"Guaiac-based fecal occult blood test (Once a year)");
+            checkups.add(1,"Stool DNA Test (Once every 3 years)");
+            checkups.add(1,"Vision Examination (Once a year)");
+            checkups.add(1,"Hearing Examination (Once a year)");
+            checkups.add(1,"Osteoporosis Screening  (Once every 8 years)");
+            checkups.add(1,"Sexually Transmitted Diseases (Once a year)");
+            checkups.add(1,"Screening for Depression (Once a year)");
+            checkups.add(1,"Alzheimer's disease and Dementia (Once every 5 years)");
+            checkups.add(1,"Flu Vaccine (Once a year)");
+            checkups.add(1,"Tetanus-diphtheria booster (Once every 10 Years)");
+        }
+        else if(age_group == 6){
+            checkups.add(1,"Annual Physical Exam (Once a year)");
+            checkups.add(1,"Blood Pressure (Once a year)");
+            checkups.add(1,"Testicular Cancer  (Monthly Check-up)");
+            checkups.add(1,"Prostate Cancer (Once every 4 years)");
+            checkups.add(1,"Dental Exam (Once every 6 months)");
+            checkups.add(1,"Screening for Lipid Disorders (Once every 2-3 Years)");
+            checkups.add(1,"Electrocardiogram (Once a year)");
+            checkups.add(1,"Coronary Heart Disease Screening (Once a year)");
+            checkups.add(1,"Flexible Sigmoidoscopy (Every 5 years)");
+            checkups.add(1,"Double-contrast Barium Enema (Every 5 years)");
+            checkups.add(1,"Fecal immunochemical test (FIT) (Once a year)");
+            checkups.add(1,"Guaiac-based fecal occult blood test (Once a year)");
+            checkups.add(1,"Stool DNA Test (Once every 3 years)");
+            checkups.add(1,"Vision Examination (Once a year)");
+            checkups.add(1,"Hearing Examination (Once a year)");
+            checkups.add(1,"Osteoporosis Screening  (Once every 8 years)");
+            checkups.add(1,"Sexually Transmitted Diseases (Once a year)");
+            checkups.add(1,"Screening for Depression (Once a year)");
+            checkups.add(1,"Alzheimer's disease and Dementia (Once every 5 years)");
+            checkups.add(1,"Flu Vaccine (Once a year)");
+        }
+        /*
+        * beginning of women
+        * */
+        else if(age_group == 7){
+            checkups.add(1,"Annual Physical Exam (Once a year)");
+            checkups.add(1,"Pelvic Examination (Pap smear) (Once every 3 years)");
+            checkups.add(1,"Lipid Panel Screening (Once every 5 years)");
+            checkups.add(1,"Sexual Transmitted Diseases (Once every year)");
+            checkups.add(1,"Breast Cancer (Once every 3 years)");
+            checkups.add(1,"Breast Cancer  (Hereditary) (Once every year)");
+            checkups.add(1,"Physical Examination (Once every year)");
+            checkups.add(1,"Cholesterol Test (Once every four to six years)");
+            checkups.add(1,"Blood Pressure Screening (Once every 1 to 2 years)");
+            checkups.add(1,"Vision Examination (Once every year)");
+            checkups.add(1,"Dental Exam (Once every 6 months)");
+            checkups.add(1,"Flu Vaccine (Once a year)");
+            checkups.add(1,"Tetanus-diphtheria booster (Once every 10 Years)");
+            checkups.add(1,"Chlamydia Test (Once a year until age 25)");
+
+        }
+        else if(age_group == 8){
+            
         }
 
     }
