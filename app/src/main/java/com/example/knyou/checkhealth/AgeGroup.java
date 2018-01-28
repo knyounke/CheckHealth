@@ -135,7 +135,7 @@ public class AgeGroup {
             checkups.add(1,"Cholesterol Test (Once every four to six years)");
             checkups.add(1,"Blood Pressure Screening (Once every 1 to 2 years)");
             checkups.add(1,"Vision Examination (Once every year)");
-            checkups.add(1,"Dental Exam (Once every 6 months)");
+            checkups.add(2,"Dental Exam (Once every 6 months)");
             checkups.add(1,"Flu Vaccine (Once a year)");
             checkups.add(1,"Tetanus-diphtheria booster (Once every 10 Years)");
             checkups.add(1,"Chlamydia Test (Once a year until age 25)");
@@ -151,7 +151,38 @@ public class AgeGroup {
             checkups.add(1,"Mammogram (Once every 2 years)");
             checkups.add(1,"Pelvic Examination (Pap smear) (Once every 3 years)");
         }
+        else if(age_group == 9){
+            checkups.add(1,"Annual Physical Exam (Once a year)");
+            checkups.add(1,"Blood Pressure Screening (Once every 1 to 2 years)");
+            checkups.add(1,"Lipid Panel Screening (Once every 5 years)");
+            checkups.add(1,"Cholesterol Test (Once every 5 years)");
+            checkups.add(1,"Sexually Transmitted Diseases (Once a year)");
+            checkups.add(1,"Thyroid Test (Once every 5 years)");
+            checkups.add(1,"Blood Sugar Test (Once every 3 years)");
+            checkups.add(1,"Breast Exam (Once a year)");
+            checkups.add(1,"Mammogram (Once every 1 - 2 years)");
+            checkups.add(1,"Pelvic Examination (Pap smear) (Once every 3 years)");
+            checkups.add(1,"Flexible Sigmoidoscopy (Once every 5 years)");
+            checkups.add(1,"Fecal Occult Blood Test (Once every year)");
+        }
+        else if(age_group == 10){
+            checkups.add(1,"Pelvic Examination (Pap smear) (Once every 3 years)");
+            checkups.add(1,"Annual Physical Exam (Once a year)");
+            checkups.add(1,"Sexually Transmitted Diseases (Once a year)");
+            checkups.add(1,"Lipid Panel Screening (Once every 5 years)");
+            checkups.add(1,"Mammogram (Once every 1 - 2 years)");
+            checkups.add(1,"Breast Exam (Once a year)");
+            checkups.add(1,"Blood Pressure (Once a year)");
+            checkups.add(1,"Osteoporosis Screening (Once every 8 years)");
+            checkups.add(1,"Hearing Examination (Once a year)");
+            checkups.add(1,"Screening for Depression (Once a year)");
+            checkups.add(1,"Blood Sugar Test (Once every 3 years)");
+            checkups.add(1,"Thyroid Test (Once every 5 years)");
+            checkups.add(1,"Cholesterol Test (Once every 5 years)");
+            checkups.add(1,"Flexible Sigmoidoscopy (Once every 5 years)");
+            checkups.add(1,"Fecal Occult Blood Test (Once every year)");
 
+        }
     }
 
     private ArrayList checkups= new ArrayList();
