@@ -3,4 +3,9 @@
     <string name="homescreenimage">HomeScreenImage</string>
     <string name="fitapp">FitApp</string>
     <string name="fitcheck">FitCheck</string>
+    <string name="title_activity_choice_screen">choice_screen</string>
+
+    <string name="title_activity_choice">choiceActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
