@@ -181,7 +181,23 @@ public class AgeGroup {
             checkups.add(1,"Cholesterol Test (Once every 5 years)");
             checkups.add(1,"Flexible Sigmoidoscopy (Once every 5 years)");
             checkups.add(1,"Fecal Occult Blood Test (Once every year)");
-
+        }
+        else if(age_group == 11){
+            checkups.add(1,"Pelvic Examination (Pap smear) (Once every 3 years)");
+            checkups.add(1,"Annual Physical Exam (Once a year)");
+            checkups.add(1,"Sexually Transmitted Diseases (Once a year)");
+            checkups.add(1,"Lipid Panel Screening (Once every 5 years)");
+            checkups.add(1,"Mammogram (Once every 1 - 2 years)");
+            checkups.add(1,"Breast Exam (Once a year)");
+            checkups.add(1,"Blood Pressure (Once a year)");
+            checkups.add(1,"Osteoporosis Screening (Once every 8 years)");
+            checkups.add(1,"Hearing Examination (Once a year)");
+            checkups.add(1,"Screening for Depression (Once a year)");
+            checkups.add(1,"Blood Sugar Test (Once every 3 years)");
+            checkups.add(1,"Thyroid Test (Once every 5 years)");
+            checkups.add(1,"Cholesterol Test (Once every 5 years)");
+            checkups.add(1,"Flexible Sigmoidoscopy (Once every 5 years)");
+            checkups.add(1,"Fecal Occult Blood Test (Once every year)");
         }
     }
 
