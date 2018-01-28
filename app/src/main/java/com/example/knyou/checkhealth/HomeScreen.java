@@ -12,20 +12,15 @@ public class HomeScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
-        //test commit and push
-    }
-    
-    public class MenuActivity extends AppCompatActivity {
-       protected void onCreate(Bundle savedInstanceState) {
-           super.onCreate(savedInstanceState);
 
-           setContentView(R.layout.activity_menu);
+        //connect to menu button
+        setContentView(R.layout.activity_menu);
 
-           final ImageButton button = findViewById(R.id.imageButton);
-           button.setOnClickListener(new View.OnClickListener() {
+        final ImageButton button = findViewById(R.id.imageButton);
+        button.setOnClickListener(new View.OnClickListener() {
 
-               @Override
-               public void onClick(View view) {
+            @Override
+            public void onClick(View view) {
 
                }
 
@@ -33,5 +28,3 @@ public class HomeScreen extends AppCompatActivity {
        }
 
     }
-
-}
