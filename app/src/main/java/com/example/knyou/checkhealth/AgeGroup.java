@@ -9,7 +9,7 @@ import java.util.List;
 
 public class AgeGroup {
 
-    public AgeGroup(int age_group, String sex){
+    public AgeGroup(int age_group, String gender){
         if(age_group == 1){
             checkups.add(1,"Annual Physical Exam (Once a year)\n");
             checkups.add(1,"Blood Pressure (Once a year)\n");

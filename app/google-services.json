@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "376732278518",
+    "firebase_url": "https://checkupapp-eae94.firebaseio.com",
+    "project_id": "checkupapp-eae94",
+    "storage_bucket": "checkupapp-eae94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376732278518:android:51f7dbc3307c2f7a",
+        "android_client_info": {
+          "package_name": "com.example.knyou.checkhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376732278518-4e18n0dhrnevtlr31mu50euu2bgtkr08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPvtIboOtGrbYypY4eVLIy3R7ze6aCS38"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -22,4 +22,7 @@ public class HomeScreen extends AppCompatActivity {
                      }
                  });
           }
+
+          //I want to add log-in authentification so that firebase can remember all of the information and they don't
+            //have to enter the forms every single time and book their appointments every time.
  }
