@@ -14,21 +14,22 @@ public class Notification{
     {
 
 
-       NotificationCompat.Builder nc = new NotificationCompat.Builder(context);
-       NotificationManager nm = (NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
+        NotificationCompat.Builder nc = new NotificationCompat.Builder(context);
+        NotificationManager nm = (NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
+       /*
+       need to connect this code
        Intent notifyIntent = new Intent(context.HomeScreen.class);
        notifyIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-
-
-       PendingIntent pendingIntent = PendingIntent.getActivity(context,0,notifyIntent,PendingIntent.FLAG_UPDATE_CURRENT);
-      nc.setSmallIcon(R.mipmap.ic_launcher);
-      nc.setAutoCancel(true);
-     nc.setContentTitle("Appointment Notification");
-     nc.setContentText("Click for more information and to see dates for scheduling.");
-      nm.notify(NOTIFICATION_TO_OPEN_ACTIVITY, nc.build());
+       PendingIntent pendingIntent = PendingIntent.getActivity(context,0,notifyIntent,PendingIntent.FLAG_UPDATE_CURRENT); */
+        nc.setSmallIcon(R.mipmap.ic_launcher);
+        nc.setAutoCancel(true);
+        nc.setContentTitle("Appointment Notification");
+        nc.setContentText("Click for more information and to see dates for scheduling.");
+        nm.notify(NOTIFICATION_TO_OPEN_ACTIVITY, nc.build());
     }
 
 }
+//
 //to generate a notification, write:
 /* Notification.openActivityNotification(getApplicationContext()); */
 /* Things that need to be done: set a default small icon */

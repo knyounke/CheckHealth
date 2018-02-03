@@ -1,5 +1,6 @@
 package com.example.knyou.checkhealth;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,18 +14,12 @@ public class HomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
-        //connect to menu button
-        setContentView(R.layout.activity_menu);
-
-        final ImageButton button = findViewById(R.id.imageButton);
+        final ImageButton button = (ImageButton) findViewById(R.id.imageButton);
         button.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-
-               }
-
-           });
-       }
-
+            public void onClick(View v) {
+                Intent myIntent = new Intent(HomeScreen.this, MenuActivity.class);
+                HomeScreen.this.startActivity(myIntent);
+            }
+        });
     }
+}
