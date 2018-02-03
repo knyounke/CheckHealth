@@ -13,7 +13,6 @@ public class Notification{
     public static void openActivityNotification(Context context)
     {
 
-
        NotificationCompat.Builder nc = new NotificationCompat.Builder(context);
        NotificationManager nm = (NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
        /*
@@ -28,6 +27,7 @@ public class Notification{
      nc.setContentTitle("Appointment Notification");
      nc.setContentText("Click for more information and to see dates for scheduling.");
       nm.notify(NOTIFICATION_TO_OPEN_ACTIVITY, nc.build());
+
     }
 
 }
