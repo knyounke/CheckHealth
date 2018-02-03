@@ -4,38 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.knyou.checkhealth.HomeScreen"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.knyou.checkhealth.HomeScreen">
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="146dp"
-        android:layout_height="136dp"
-        android:layout_marginBottom="53dp"
-        android:layout_marginEnd="119dp"
-        android:layout_marginStart="119dp"
-        android:layout_marginTop="187dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="255dp"
         android:contentDescription="@string/imagebutton"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_launcher_round" />
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginRight="158dp"
+        android:layout_marginLeft="157dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="123dp"
-        android:layout_height="35dp"
-        android:layout_marginBottom="307dp"
-        android:layout_marginEnd="130dp"
-        android:layout_marginStart="131dp"
-        android:layout_marginTop="33dp"
-        android:contentDescription="@string/fitapp"
-        android:text="@string/fitcheck"
+        android:layout_width="80dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="203dp"
+        android:layout_marginEnd="166dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textview"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        android:layout_marginRight="130dp"
-        android:layout_marginLeft="131dp" />
-
+        tools:text="Fitness"
+        android:layout_marginLeft="165dp"
+        android:layout_marginRight="166dp" />
 </android.support.constraint.ConstraintLayout>
+
+
+
+
+
