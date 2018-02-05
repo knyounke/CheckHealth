@@ -8,7 +8,9 @@
     <string name="name">Name</string>
     <string name="birthday">Birthday</string>
     <string name="bday_txt">bday txt</string>
+
     <string name="textview">TextView</string>
+
 
     <string-array name="Gender">
         <item>Female</item>
